@@ -49,6 +49,9 @@ nav li a {
     color: #EDEFEE;
     padding: 0 50px;
 }
+nav li a:hover {
+    color: #F4CE14;
+}
 /* end nav */
 /* start offer */
 .offer {
