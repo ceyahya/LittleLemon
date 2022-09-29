@@ -1,3 +1,7 @@
+* {
+    --maincolor: #F4CE14;
+    --secondarycolor: #495E57;
+}
 body {
     background-color: #EDEFEE;
     font-family: 'Markazi Text', sans-serif;
@@ -5,7 +9,7 @@ body {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
-    color: #495E57;
+    color: var(--secondarycolor);
     font-size: 2rem;
 }
 /* start headder */
@@ -28,7 +32,7 @@ h1 {
     padding: 0 20px;
 }
 h1:hover {
-    color: #F4CE14;
+    color: var(--maincolor);
 }
 /* end headder */
 /* start nav */
@@ -54,15 +58,15 @@ nav li a {
     padding: 0 50px;
 }
 nav li a:hover {
-    background-color: #495E57;
-    color: #F4CE14;
+    background-color: var(--secondarycolor);
+    color: var(--maincolor);
 }
 /* end nav */
 /* start offer */
 .offer {
     display: block;
-    background-color: #F4CE14;
-    color: #495E57;
+    background-color: var(--maincolor);
+    color: var(--secondarycolor);
     border-radius: 15px;
 }
 
@@ -82,7 +86,7 @@ section {
 section article {
     width: 400px;
     box-sizing: border-box;
-    border: 5px solid #495E57;
+    border: 5px solid var(--secondarycolor);
     text-align: center;
     border-radius: 15px;
     padding: 20px;
@@ -99,8 +103,8 @@ section article a {
     color: white;
 }
 section article a:hover {
-    background-color: #495E57;
-    color: #F4CE14;
+    background-color: var(--secondarycolor);
+    color: var(--maincolor);
 }
 /* end article */
 /* start footer */
@@ -127,7 +131,7 @@ span a {
 }
 
 span a:hover {
-    background-color: #495E57;
-    border-color: #495E57;
-    color: #F4CE14;
+    background-color: var(--secondarycolor);
+    border-color: var(--secondarycolor);
+    color: var(--maincolor);
 }
