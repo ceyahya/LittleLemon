@@ -27,6 +27,9 @@ h1 {
     font-size: 4rem;
     padding: 0 20px;
 }
+h1:hover {
+    color: #F4CE14;
+}
 /* end headder */
 /* start nav */
 nav {
@@ -45,11 +48,13 @@ nav li {
 }
 
 nav li a {
+    border-radius: 15px;
     text-decoration: none;
     color: #EDEFEE;
     padding: 0 50px;
 }
 nav li a:hover {
+    background-color: #495E57;
     color: #F4CE14;
 }
 /* end nav */
@@ -79,13 +84,22 @@ section article {
     box-sizing: border-box;
     border: 5px solid #495E57;
     text-align: center;
+    border-radius: 15px;
     padding: 20px;
+    margin: 10px 0;
 }
 section article img {
     width: 50%;
 }
 section article a {
+    border-radius: 15px;
     text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+section article a:hover {
+    background-color: #495E57;
     color: #F4CE14;
 }
 /* end article */
@@ -98,5 +112,22 @@ footer {
 footer > img {
     width: 5%;
 }
-
 /* end footer */
+span a {
+    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    text-align: center;
+}
+
+span a:hover {
+    background-color: #495E57;
+    border-color: #495E57;
+    color: #F4CE14;
+}
