@@ -1,0 +1,99 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #495E57;
+    font-size: 2rem;
+}
+/* start headder */
+header > img {
+    width: 5%;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    display: inline;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 4rem;
+    padding: 0 20px;
+}
+/* end headder */
+/* start nav */
+nav {
+    background-color: black;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #EDEFEE;
+    padding: 0 50px;
+}
+/* end nav */
+/* start offer */
+.offer {
+    display: block;
+    background-color: #F4CE14;
+    color: #495E57;
+    border-radius: 15px;
+}
+
+.offer h2,p {
+    padding: 20px;
+    margin: 0;
+}
+/* end offer */
+/* start article */
+section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section article {
+    width: 400px;
+    box-sizing: border-box;
+    border: 5px solid #495E57;
+    text-align: center;
+    padding: 20px;
+}
+section article img {
+    width: 50%;
+}
+section article a {
+    text-decoration: none;
+    color: #F4CE14;
+}
+/* end article */
+/* start footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > img {
+    width: 5%;
+}
+
+/* end footer */
